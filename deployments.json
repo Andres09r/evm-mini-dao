@@ -1,0 +1,14 @@
+{
+  "localhost": {
+    "network": 31337,
+    "contractAddress": "0x5fbdb2315678afecb367f032d93f642f64180aa3",
+    "deployerAddress": "0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266",
+    "timestamp": "2025-07-30T00:35:51.131Z",
+    "blockNumber": 2,
+    "rpcUrl": "http://127.0.0.1:8545"
+  },
+  "sepolia": {
+    "note": "Sepolia deployment requires SEPOLIA_URL and PRIVATE_KEY environment variables"
+  }
+}
+
